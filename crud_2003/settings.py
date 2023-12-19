@@ -30,12 +30,12 @@ DEBUG = env.bool('DEBUG', True)
 
 ALLOWED_HOSTS = env.list('ALLOWED_HOSTS')
 
-PROTOCOL = "http"
-DOMAIN = "localhost:3000"
+# PROTOCOL = "http"
+# DOMAIN = "localhost:3000"
 
-if not DEBUG:
-    PROTOCOL = "https"
-    DOMAIN = "reg.ru"
+# if not DEBUG:
+#     PROTOCOL = "https"
+#     DOMAIN = "reg.ru"
 
 # Application definition
 INSTALLED_APPS = [
